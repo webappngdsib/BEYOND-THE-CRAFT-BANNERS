@@ -23,6 +23,7 @@ jobs:
         run: |
           mkdir _site
           cp index.html _site/index.html
+          cp banner-01.png _site/
           cp -r assets _site/assets
           cp "detail for zoom.png" _site/
       - uses: actions/upload-pages-artifact@v3
